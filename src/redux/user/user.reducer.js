@@ -1,5 +1,3 @@
-import { current } from "fibers";
-
 const INITIAL_STATE = {
     currentUser: null
 }
