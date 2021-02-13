@@ -16,9 +16,11 @@ const CartDropdown = ({ cartItems }) => (
     </div>
 )
 
-const mapStateToProps = ({cart: { cartItems }}) => ({
-    cartItems
-})
+const mapStateToProps = ({cart: { cartItems }}) => {
+    return {
+        cartItems
+    }
+}
 
 
 export default connect(mapStateToProps)(CartDropdown)
